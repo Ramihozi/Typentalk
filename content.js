@@ -5,8 +5,15 @@
 
 
 
+//document.addEventListener('keydown',playAudio);
+//function playAudio(e) {
+  //let audioSpace = new Audio(chrome.runtime.getURL('LetterA.mp3'));
+  //if (e.keyCode === 65) audioSpace.play();
+//}
+
+let test =  chrome.runtime.getURL('LetterA.mp3');
 document.addEventListener('keydown',playAudio);
 function playAudio(e) {
-  let audioSpace = new Audio(chrome.runtime.getURL('LetterA.mp3'));
+  let audioSpace = new Audio(test);
   if (e.keyCode === 65) audioSpace.play();
 }
