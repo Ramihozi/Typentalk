@@ -16,7 +16,7 @@
 		"activeTab"
 	],
 	"web_accessible_resources": [
-		"sound.wav"
+		"LetterA.mp3"
 	],
     "manifest_version": 2
   }
