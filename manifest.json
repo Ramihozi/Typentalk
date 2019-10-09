@@ -17,7 +17,31 @@
 	],
 	"web_accessible_resources": [
 		"Sound/LetterA.mp3",
-		"Sound/LetterB.mp3"
+		"Sound/LetterB.mp3",
+		"Sound/LetterC.mp3",
+		"Sound/LetterD.mp3",
+		"Sound/LetterE.mp3",
+		"Sound/LetterF.mp3",
+		"Sound/LetterG.mp3",
+		"Sound/LetterH.mp3",
+		"sound/LetterI.mp3",
+		"sound/LetterJ.mp3",
+		"sound/LetterK.mp3",
+		"sound/LetterL.mp3",
+		"sound/LetterM.mp3",
+		"sound/LetterN.mp3",
+		"sound/LetterO.mp3",
+		"sound/LetterP.mp3",
+		"sound/LetterQ.mp3",
+		"sound/LetterR.mp3",
+		"sound/LetterS.mp3",
+		"sound/LetterT.mp3",
+		"sound/LetterU.mp3",
+		"sound/LetterV.mp3",
+		"sound/LetterW.mp3",
+		"sound/LetterX.mp3",
+		"sound/LetterY.mp3",
+		"sound/LetterZ.mp3"
 	],
     "manifest_version": 2
   }
