@@ -11,9 +11,20 @@
   //if (e.keyCode === 65) audioSpace.play();
 //}
 
-let test =  chrome.runtime.getURL('LetterA.m4r');
+let testB =  chrome.runtime.getURL('Sound/LetterB.mp3');
+let testA =  chrome.runtime.getURL('Sound/LetterA.mp3');
+
+
+
 document.addEventListener('keydown',playAudio);
 function playAudio(e) {
-  let audioSpace = new Audio(test);
-  if (e.keyCode === 65) audioSpace.play();
+  let audioSpace = new Audio(testA);
+  let audioSpace = new Audio(testB);
+  
+  
+  
+  if (e.keyCode === 65) audioA.play();
+  else if (e.keyCode === 66) audioB.play();
 }
+
+
