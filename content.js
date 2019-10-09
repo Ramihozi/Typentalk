@@ -18,8 +18,8 @@ let testA =  chrome.runtime.getURL('Sound/LetterA.mp3');
 
 document.addEventListener('keydown',playAudio);
 function playAudio(e) {
-  let audioSpace = new Audio(testA);
-  let audioSpace = new Audio(testB);
+  let audioA = new Audio(testA);
+  let audioB = new Audio(testB);
   
   
   
