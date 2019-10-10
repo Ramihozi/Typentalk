@@ -27,6 +27,16 @@ let testM =  chrome.runtime.getURL('Sound/LetterM.mp3');
 let testN =  chrome.runtime.getURL('Sound/LetterN.mp3');
 let testO =  chrome.runtime.getURL('Sound/LetterO.mp3');
 let testP =  chrome.runtime.getURL('Sound/LetterP.mp3');
+let testQ =  chrome.runtime.getURL('Sound/LetterQ.mp3');
+let testR =  chrome.runtime.getURL('Sound/LetterR.mp3');
+let testS =  chrome.runtime.getURL('Sound/LetterS.mp3');
+let testT =  chrome.runtime.getURL('Sound/LetterT.mp3');
+let testU =  chrome.runtime.getURL('Sound/LetterU.mp3');
+let testV =  chrome.runtime.getURL('Sound/LetterV.mp3');
+let testW =  chrome.runtime.getURL('Sound/LetterW.mp3');
+let testX =  chrome.runtime.getURL('Sound/LetterX.mp3');
+let testY =  chrome.runtime.getURL('Sound/LetterY.mp3');
+let testZ =  chrome.runtime.getURL('Sound/LetterZ.mp3');
 
 document.addEventListener('keydown',playAudio);
 function playAudio(e) {
@@ -46,6 +56,16 @@ function playAudio(e) {
   let audioN = new Audio(testN);
   let audioO = new Audio(testO);
   let audioP = new Audio(testP);
+  let audioQ = new Audio(testQ);
+  let audioR = new Audio(testR);
+  let audioS = new Audio(testS);
+  let audioT = new Audio(testT);
+  let audioU = new Audio(testU);
+  let audioV = new Audio(testV);
+  let audioW = new Audio(testW);
+  let audioX = new Audio(testX);
+  let audioY = new Audio(testY);
+  let audioZ = new Audio(testZ);
   
   if (e.keyCode === 65) audioA.play();
   else if (e.keyCode === 66) audioB.play();
@@ -63,6 +83,17 @@ function playAudio(e) {
   else if (e.keyCode === 78) audioN.play();
   else if (e.keyCode === 79) audioO.play();
   else if (e.keyCode === 80) audioP.play();
+  else if (e.keyCode === 81) audioQ.play();
+  else if (e.keyCode === 82) audioR.play();
+  else if (e.keyCode === 83) audioS.play();
+  else if (e.keyCode === 84) audioT.play();
+  else if (e.keyCode === 85) audioU.play();
+  else if (e.keyCode === 86) audioV.play();
+  else if (e.keyCode === 87) audioW.play();
+  else if (e.keyCode === 88) audioX.play();
+  else if (e.keyCode === 89) audioY.play();
+  else if (e.keyCode === 90) audioZ.play();
+  
   
 }
 
