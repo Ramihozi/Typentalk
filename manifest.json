@@ -42,8 +42,7 @@
 		"Sound/LetterX.mp3",
 		"Sound/LetterY.mp3",
 		"Sound/LetterZ.mp3",
-		"Sound/Altkey.mp3",
-		"Sound/Capslockkey.mp3"
+		
 	],
     "manifest_version": 2
   }
