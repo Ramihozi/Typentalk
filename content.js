@@ -38,7 +38,7 @@ let testX =  chrome.runtime.getURL('Sound/LetterX.mp3');
 let testY =  chrome.runtime.getURL('Sound/LetterY.mp3');
 let testZ =  chrome.runtime.getURL('Sound/LetterZ.mp3');
 let testAlt =  chrome.runtime.getURL('Sound/Altkey.mp3');
-let testCaps = chrome.runtimes.getURl('Sound/Capslockkey.mp3');
+let testCaps = chrome.runtimes.getURL('Sound/Capslockkey.mp3');
 
 
 document.addEventListener('keydown',playAudio);
