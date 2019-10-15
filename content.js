@@ -37,6 +37,8 @@ let testW =  chrome.runtime.getURL('Sound/LetterW.mp3');
 let testX =  chrome.runtime.getURL('Sound/LetterX.mp3');
 let testY =  chrome.runtime.getURL('Sound/LetterY.mp3');
 let testZ =  chrome.runtime.getURL('Sound/LetterZ.mp3');
+let testAlt =  chrome.runtime.getURL('Sound/Altkey.mp3');
+
 
 document.addEventListener('keydown',playAudio);
 function playAudio(e) {
@@ -66,6 +68,7 @@ function playAudio(e) {
   let audioX = new Audio(testX);
   let audioY = new Audio(testY);
   let audioZ = new Audio(testZ);
+  let audioAlt = new Audio(testAlt);
   
   if (e.keyCode === 65) audioA.play();
   else if (e.keyCode === 66) audioB.play();
@@ -93,7 +96,7 @@ function playAudio(e) {
   else if (e.keyCode === 88) audioX.play();
   else if (e.keyCode === 89) audioY.play();
   else if (e.keyCode === 90) audioZ.play();
-  
+  else if (e.keycode === 18) audioAlt.play();
   
 }
 
