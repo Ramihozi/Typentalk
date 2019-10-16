@@ -37,6 +37,17 @@ let testW =  chrome.runtime.getURL('Sound/LetterW.mp3');
 let testX =  chrome.runtime.getURL('Sound/LetterX.mp3');
 let testY =  chrome.runtime.getURL('Sound/LetterY.mp3');
 let testZ =  chrome.runtime.getURL('Sound/LetterZ.mp3');
+let test0 =  chrome.runtime.getURL('Sound/Number0.mp3');
+let test1 =  chrome.runtime.getURL('Sound/Number1.mp3');
+let test2 =  chrome.runtime.getURL('Sound/Number2.mp3');
+let test3 =  chrome.runtime.getURL('Sound/Number3.mp3');
+let test4 =  chrome.runtime.getURL('Sound/Number4.mp3');
+let test5 =  chrome.runtime.getURL('Sound/Number5.mp3');
+let test6 =  chrome.runtime.getURL('Sound/Number6.mp3');
+let test7 =  chrome.runtime.getURL('Sound/Number7.mp3');
+let test8 =  chrome.runtime.getURL('Sound/Number8.mp3');
+let test9 =  chrome.runtime.getURL('Sound/Number9.mp3');
+
 
 
 
@@ -68,6 +79,16 @@ function playAudio(e) {
   let audioX = new Audio(testX);
   let audioY = new Audio(testY);
   let audioZ = new Audio(testZ);
+  let audio0 = new Audio(test0);
+  let audio1 = new Audio(test1);
+  let audio2 = new Audio(test2);
+  let audio3 = new Audio(test3);
+  let audio4 = new Audio(test4);
+  let audio5 = new Audio(test5);
+  let audio6 = new Audio(test6);
+  let audio7 = new Audio(test7);
+  let audio8 = new Audio(test8);
+  let audio9 = new Audio(test9);
 
   
   
@@ -97,6 +118,16 @@ function playAudio(e) {
   else if (e.keyCode === 88) audioX.play();
   else if (e.keyCode === 89) audioY.play();
   else if (e.keyCode === 90) audioZ.play();
+  else if (e.keyCode === 48) audio0.play();
+  else if (e.keyCode === 49) audio1.play();
+  else if (e.keyCode === 50) audio2.play();
+  else if (e.keyCode === 51) audio3.play();
+  else if (e.keyCode === 52) audio4.play();
+  else if (e.keyCode === 53) audio5.play();
+  else if (e.keyCode === 54) audio6.play();
+  else if (e.keyCode === 55) audio7.play();
+  else if (e.keyCode === 56) audio8.play();
+  else if (e.keyCode === 57) audio9.play();
 
 }
 
