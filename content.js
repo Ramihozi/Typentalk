@@ -47,7 +47,9 @@ let test6 =  chrome.runtime.getURL('Sound/Number6.mp3');
 let test7 =  chrome.runtime.getURL('Sound/Number7.mp3');
 let test8 =  chrome.runtime.getURL('Sound/Number8.mp3');
 let test9 =  chrome.runtime.getURL('Sound/Number9.mp3');
-
+let testPeriod = chrome.runtime.getURL('Sound/Periodkey.mp3');
+let testShift = chrome.runtime.getURL('Sound/Shiftkey.mp3');
+let testTab = chrome.runtime.getURL('Sound/Tabkey.mp3');
 
 
 
@@ -89,7 +91,9 @@ function playAudio(e) {
   let audio7 = new Audio(test7);
   let audio8 = new Audio(test8);
   let audio9 = new Audio(test9);
-
+  let audioPeriod = new Audio(testPeriod);
+  let audioShift = new Audio(testShift);
+  let audioTab = new Audio(testTab);
   
   
   if (e.keyCode === 65) audioA.play();
@@ -128,7 +132,9 @@ function playAudio(e) {
   else if (e.keyCode === 55) audio7.play();
   else if (e.keyCode === 56) audio8.play();
   else if (e.keyCode === 57) audio9.play();
-
+  else if (e.keycode === 190) audioPeriod.play();
+  else if (e.keycode === 16) audioShift.play();
+  else if (e.keycode === 9) audioTab.play();
 }
 
 
