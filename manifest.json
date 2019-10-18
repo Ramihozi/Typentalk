@@ -51,7 +51,10 @@
 		"Sound/Number6.mp3",
 		"Sound/Number7.mp3",
 		"Sound/Number8.mp3",
-		"Sound/Number9.mp3"
+		"Sound/Number9.mp3",
+		"Sound/Periodkey.mp3",
+		"Sound/Shiftkey.mp3",
+		"Sound/Tabkey.mp3"
 		
 	],
     "manifest_version": 2
