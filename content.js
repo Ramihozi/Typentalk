@@ -47,6 +47,16 @@ let test6 =  chrome.runtime.getURL('Sound/Number6.mp3');
 let test7 =  chrome.runtime.getURL('Sound/Number7.mp3');
 let test8 =  chrome.runtime.getURL('Sound/Number8.mp3');
 let test9 =  chrome.runtime.getURL('Sound/Number9.mp3');
+let testnum0 =  chrome.runtime.getURL('Sound/Number0.mp3');
+let testnum1 =  chrome.runtime.getURL('Sound/Number1.mp3');
+let testnum2 =  chrome.runtime.getURL('Sound/Number2.mp3');
+let testnum3 =  chrome.runtime.getURL('Sound/Number3.mp3');
+let testnum4 =  chrome.runtime.getURL('Sound/Number4.mp3');
+let testnum5 =  chrome.runtime.getURL('Sound/Number5.mp3');
+let testnum6 =  chrome.runtime.getURL('Sound/Number6.mp3');
+let testnum7 =  chrome.runtime.getURL('Sound/Number7.mp3');
+let testnum8 =  chrome.runtime.getURL('Sound/Number8.mp3');
+let testnum9 =  chrome.runtime.getURL('Sound/Number9.mp3');
 let testPeriod = chrome.runtime.getURL('Sound/Periodkey.mp3');
 let testShift = chrome.runtime.getURL('Sound/Shiftkey.mp3');
 let testTab = chrome.runtime.getURL('Sound/Tabkey.mp3');
@@ -91,6 +101,16 @@ function playAudio(e) {
   let audio7 = new Audio(test7);
   let audio8 = new Audio(test8);
   let audio9 = new Audio(test9);
+  let audionum0 = new Audio(testnum0);
+  let audionum1 = new Audio(testnum1);
+  let audionum2 = new Audio(testnum2);
+  let audionum3 = new Audio(testnum3);
+  let audionum4 = new Audio(testnum4);
+  let audionum5 = new Audio(testnum5);
+  let audionum6 = new Audio(testnum6);
+  let audionum7 = new Audio(testnum7);
+  let audionum8 = new Audio(testnum8);
+  let audionum9 = new Audio(testnum9);
   let audioPeriod = new Audio(testPeriod);
   let audioShift = new Audio(testShift);
   let audioTab = new Audio(testTab);
@@ -135,6 +155,17 @@ function playAudio(e) {
   else if (e.keycode === 190) audioPeriod.play();
   else if (e.keycode === 16) audioShift.play();
   else if (e.keycode === 9) audioTab.play();
+  else if (e.keyCode === 96) audionum0.play();
+  else if (e.keyCode === 97) audionum1.play();
+  else if (e.keyCode === 98) audionum2.play();
+  else if (e.keyCode === 99) audionum3.play();
+  else if (e.keyCode === 100) audionum4.play();
+  else if (e.keyCode === 101) audionum5.play();
+  else if (e.keyCode === 102) audionum6.play();
+  else if (e.keyCode === 103) audionum7.play();
+  else if (e.keyCode === 104) audionum8.play();
+  else if (e.keyCode === 105) audionum9.play();
+  
 }
 
 
