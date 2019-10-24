@@ -54,7 +54,8 @@
 		"Sound/Number9.mp3",
 		"Sound/Periodkey.mp3",
 		"Sound/Shiftkey.mp3",
-		"Sound/Tabkey.mp3"
+		"Sound/Tabkey.mp3",
+		"Sound/Deletekey.mp3"
 		
 	],
     "manifest_version": 2
