@@ -60,7 +60,7 @@ let testnum9 =  chrome.runtime.getURL('Sound/Number9.mp3');
 let testPeriod = chrome.runtime.getURL('Sound/Periodkey.mp3');
 let testShift = chrome.runtime.getURL('Sound/Shiftkey.mp3');
 let testTab = chrome.runtime.getURL('Sound/Tabkey.mp3');
-
+let testDelete = chrome.runtime.getURL('Sound/Deletekey.mp3');
 
 
 document.addEventListener('keydown',playAudio);
@@ -114,7 +114,7 @@ function playAudio(e) {
   let audioPeriod = new Audio(testPeriod);
   let audioShift = new Audio(testShift);
   let audioTab = new Audio(testTab);
-  
+  let audioDelete = new Audio(testDelete);
   
   if (e.keyCode === 65) audioA.play();
   else if (e.keyCode === 66) audioB.play();
@@ -165,7 +165,7 @@ function playAudio(e) {
   else if (e.keyCode === 103) audionum7.play();
   else if (e.keyCode === 104) audionum8.play();
   else if (e.keyCode === 105) audionum9.play();
-  
+ else if (e.keyCode === 8) audioDelete.play();
 }
 
 
