@@ -2,6 +2,10 @@
     "name": "Type and Talk",
     "version": "1.0",
     "description": "You type it talks, for those who have limited ability to see what they type.",
+	"icons": {
+			"16": "favicon16x16.png",
+			"128": "favicon128x128.png"
+	}, 
     "background": {
       "scripts": ["background.js"],
       "persistent": false
